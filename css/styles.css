@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.g-body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem 0;
+  }
+
+.g-bold {
+  font-weight: bold;
+  margin: auto;
+}
+
+#g-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+main {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#g-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin: 0 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+
+  a:hover:not(img) {
+    color: #f4f4f4;
+    background-color: #555;
+  }
+}
+
+#p-home {
+    .welcome-container {
+      max-width: 600px; 
+      margin: 0 auto; 
+      padding: 0 1rem;
+    }
+  
+      h1 {
+        font-size: 2.5rem;
+        color: #333;
+      }
+      
+      p {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+      }
+}
+
+
+#s-resume {
+    display: flex;
+    justify-self: left;
+    text-align:left;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 25px;
+
+    section {
+      justify-content: center;
+      justify-self: center;
+    
+
+      h2 {
+        border-bottom: 2px solid #333
+      }
+
+      ul {
+        font-size: 1.2rem;
+        font-family: 'Roboto' sans-serif;
+      }
+
+      p {
+        font-size: 1.2rem;
+    }
+    }
+}
+
+#s-web-samples {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+
+    section {
+      width: 450px;
+      height: auto;
+      border: 2px solid rgba(255, 0, 0, 0.288);
+      display: flex;
+      flex-direction: column;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 25px;
+    }
+      a img {
+        width: 400px;
+        height: 325px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+      a img:hover {
+        background-color: transparent;
+      }   
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
